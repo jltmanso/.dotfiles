@@ -1,3 +1,21 @@
 [submodule "tmux/plugins/tmux-mem-cpu-load"]
 	path = tmux/plugins/tmux-mem-cpu-load
 	url = https://github.com/thewtex/tmux-mem-cpu-load
+[submodule "vim/plugins/nerdtree"]
+	path = vim/plugins/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "tmux/plugins/tmux-weather"]
+	path = tmux/plugins/tmux-weather
+	url = https://github.com/xamut/tmux-weather
+[submodule "tmux/plugins/tmux-battery"]
+	path = tmux/plugins/tmux-battery
+	url = https://github.com/tmux-plugins/tmux-battery
+[submodule "tmux/plugins/tmux-network-bandwidth"]
+	path = tmux/plugins/tmux-network-bandwidth
+	url = https://github.com/xamut/tmux-network-bandwidth
+[submodule "zsh/plugins/zsh-colored-man-pages"]
+	path = zsh/plugins/zsh-colored-man-pages
+	url = https://github.com/ael-code/zsh-colored-man-pages
+[submodule "zsh/plugins/fast-syntax-highlighting"]
+	path = zsh/plugins/fast-syntax-highlighting
+	url = https://github.com/zdharma/fast-syntax-highlighting
