@@ -19,3 +19,12 @@
 [submodule "zsh/plugins/fast-syntax-highlighting"]
 	path = zsh/plugins/fast-syntax-highlighting
 	url = https://github.com/zdharma/fast-syntax-highlighting
+[submodule "zsh/plugins/zsh-completions"]
+	path = zsh/plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions/
+[submodule "tmux/plugins/tmux-spotify-info"]
+	path = tmux/plugins/tmux-spotify-info
+	url = https://github.com/jdxcode/tmux-spotify-info
+[submodule "zsh/themes/powerlevel9k"]
+	path = zsh/themes/powerlevel9k
+	url = https://github.com/Powerlevel9k/powerlevel9k
