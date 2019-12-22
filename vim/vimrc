@@ -1,1 +1,27 @@
-/home/jltm/.vimrc
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugins                                                                  "
+" => Some additional user-defined plugins                                     "	
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set background=dark
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Nerd Tree                                                                "
+" =>                                                                          "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set rtp+=$HOME/.dotfiles/vim/plugins/nerdtree
+let g:NERDTreeWinPos = "left"
+let NERDTreeWinSize=40
+let NERDTreeMinimalUI=1
+let NERDTreeDirArrows=1
+map <leader>nt :NERDTreeToggle<cr>
+map <leader>nb :NERDTreeFromBookmark<Space>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Powerline                                                                "
+" =>
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set rtp+=/usr/local/lib/python3.6/dist-packages/powerline/bindings/vim
+set laststatus=2
+set showtabline=1
+set noshowmode
+set t_Co=256

@@ -1,1 +1,2000 @@
-/home/jltm/.bash_history
+man apt-secure(8)
+man apt-secure
+exit
+poweroff
+exit
+cd bin/
+ls -la
+./clion.sh 
+poweroff
+lsusb | grep -i samsung
+sudo apt-get update && sudp apt-get upgrade
+exit
+poweroff 
+sudo apt-get update && sudo apt-get upgrade 
+exit
+ls -la /dev/media0 
+ls -la /dev
+clear
+exit
+ping -c www.google.en
+ping -c 10 www.google.en
+ping -c 10 www.google.com
+exit
+poweroff
+exit
+poweroff
+sudo apt-get update
+sudo apt update
+sudo apt-get update
+sudo apt-get upgrade 
+sudo apt-get update
+sudo apt-get upgrade 
+exit
+sudo apt-get install libmtp-dev mtpfs
+sudo gedit /lib/udev/rules.d/69-libmtp.rules 
+sudo service udev restart 
+sudo apt-get install mtp-tools 
+sudo service udev restart 
+sudo gedit /lib/udev/rules.d/69-libmtp.rules 
+sudo mtp-detect
+sudo service udev restart 
+sudo mtp-detect
+sudo service udev restart 
+sudo mtp-detect
+sudo gedit /lib/udev/rules.d/69-libmtp.rules 
+sudo service udev restart 
+poweroff
+sudo apt-get update && sudo apt-get upgrade
+exit
+ls -la /dev/media0 
+ls -la /dev/media
+ls -la /media/
+ls -la /media/jltm/
+exit
+poweroff
+sudo apt-get update && sudo apt-get upgrade 
+exit
+sudo apt-get update && sudo apt-get upgrade
+exit
+poweroff
+df -H
+exit
+sudo apt-get update && sudo apt-get upgrade
+sudo apt autoremove
+df -H
+exit
+poweroff
+sudo apt-get update && sudo apt-get upgrade 
+exit
+sudo apt-get update && sudo apt-get upgrade 
+exit
+poweroff 
+exit
+poweroff
+sudo apt-get update && sudo apt-get upgrade 
+sudo apt autoremove 
+df -H
+xeit
+exit
+cd Downloads/
+ls -la
+cd Matlab_2017a_Linux_x86-64/
+ls- la
+ls -la
+nano INSTALL 
+df -H
+exit
+cd Downloads/
+cd Matlab_2017a_Linux_x86-64/
+sudo mount R2017a_glnxa64_dvd1.iso /media/cdrom -o loop
+sudo mount R2017a_glnxa64_dvd1.iso /media/jltm/ -o loop
+/mnt/
+cd /media/jltm/
+ls -la
+./install 
+cd
+/media/jltm/install 
+sudo apt-get update && sudo apt-get upgrade 
+exut
+exit
+sudo apt-get upgrade && sudo apt-get update
+exit
+cd Desktop/
+ls -la
+chmod +x SpotifyLyrics_1.21_any.deb 
+./SpotifyLyrics_1.21_any.deb 
+exit
+poweroff
+sudo apt autoremove 
+exit
+reboot
+reboot now
+restart
+exit
+sudo apt-get upgrade && sudo apt-get update 
+exit
+ls -la /dev
+rebooy
+reboot
+vgs
+sudo vgs
+lvs
+sudo lvs
+mount
+df -h
+df / -h
+sudo apt clean 
+df / -h
+sudo apt update
+sudo apt dist-upgrade 
+sudo dpkg --configure -a
+sudo apt dist-upgrade 
+df -h
+df / -h
+sudo lvresize -L +5G /dev/mapper/ssd-root
+resize2fs /dev/mapper/ssd-root 
+sudo resize2fs /dev/mapper/ssd-root 
+df / -h
+vgs
+sudo vgs
+cat /proc/cpuinfo 
+sudo apt-get upgrade && sudo apt-get update 
+exec chrome
+google-chrome
+exit
+poweroff
+sudo apt-get upgrade && sudo apt-get update 
+exit
+poweroff
+aplay -l
+exit
+killall spotify
+rm -rf /home/jltm/.cache/spotify/Storage
+spotify
+sudo apt update
+apt list --upgradable 
+sudo apt-get update
+sudo apt-get upgrade 
+exit
+reboot
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update
+sudo apt-get install spotify-client
+exit
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
+sudo add-apt-repository "deb http://repository.spotify.com stable non-free"
+sudo apt install spotify-client
+sudo snap install spotify
+exit
+killall spotify 
+exit
+sudo snap remove spotify
+exit
+ls -la
+ls -la /dev
+ls -la
+ls
+exit
+cd snap/spotify/common/
+ls -la
+cd .cache/
+ls .la
+ls -la
+cd
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
+sudo apt update
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update
+sudo apt-get install spotify-client
+exit
+sudo apt update 
+sudo apt-get update && sudo apt-get upgrade 
+exit
+ping -c 10 www.google.de
+exit
+sudo apt update && sudo apt-get update  && sudo apt-get upgrade 
+exit
+sudo apt update
+sudo apt-get update
+sudo apt-get upgrade 
+df -H
+exit
+sudo apt update && sudo apt-get update && sudo apt-get upgrade 
+exit
+poweroff
+sudo apt update
+apt list --upgradable 
+sudo apt-get update
+sudo apt-get upgrade 
+ps -A
+exit
+sudo apt install
+sudo apt update
+sudo apt upgrade
+exit
+poweroff
+./sublime_text 
+cd
+ls -la /dev
+df -H
+locate sublime*
+find sublime*
+exit
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
+exit
+poweroof
+poweroff
+sudo apt update
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get upgrade 
+exit
+ps -A
+ps -A | grep thu*
+kill 11776
+ps -A | grep thu*
+exit
+uptime
+exit
+rebooy
+reboot
+exit
+reboot
+ls -l
+exit
+top
+exit
+top
+poweroff
+df -h
+sudo apt-get update && sudo apt-get upgrade 
+exit
+poweroff
+vimtutor 
+exit
+cd Documents/CodeComposer_Projects/F28335_SAPF_Control/SAPF/src/
+ls -la
+vim SAPF_Control.c 
+exit
+poweroff
+sudo apt-get update && apt-get upgrade 
+sudo apt-get update && sudo apt-get upgrade 
+exit
+cd ~/.config/spotify/Users/iscrface-user/
+ls -la
+rm local-files.bnk 
+ls -la
+exit
+sync
+exit
+poweroof
+poweroff
+ls -la /dev
+reboot
+sudo reboot
+ls -la
+./matlab
+cd Downloads/
+ls -l
+nautilus /home/jltm/Downloads/
+exit
+cd /media/jltm/
+ls -la
+df -H
+./install 
+cd $HOME
+ls -la
+/media/jltm/MATHWORKS_R2017A/install 
+ls -la
+cd Programas/
+mkdir Matlab
+cd Matlab/
+/media/jltm/MATHWORKS_R2017A/install 
+ls -la
+cd bin/
+ls -l
+./matlab
+exit
+man cp
+cp -r glnxa64/ /home/jltm/Programas/Matlab/bin
+sudo cp -r glnxa64/ /home/jltm/Programas/Matlab/bin
+./matlab
+./matlab -desktop
+cd nautilus
+cd ./ nautilus
+nautilus ./
+cd ~
+cd ~/.local/share/applications/
+ls -la
+touch matlab_r2017a.desktop
+ls -la
+nano matlab_r2017a.desktop 
+chmod +x matlab_r2017a.desktop 
+./matlab_r2017a.desktop 
+nautilus ./
+nano matlab_r2017a.desktop 
+rm matlab_r2017a.desktop 
+ls -la
+nano jetbrains-clion.desktop 
+exit
+cd
+exit
+df -h
+sudo mount R2017a_glnxa64_dvd1.iso /media/jltm/ -o loop
+ls -la /media/jltm/
+/media/jltm/install 
+d -h
+df -g
+df -h
+df -H
+sudo umount /media/jltm 
+cd /home/jltm/Downloads/
+ls l-a
+ls la
+ls -la
+cd Matlab_2017a_Linux_x86-64/
+ls -la
+mount R2017a_glnxa64_dvd2.iso /media/jltm/ -o loop
+sudo mount R2017a_glnxa64_dvd2.iso /media/jltm/ -o loop
+df -h
+./matlab
+cd /home/jltm/
+ls -la
+ls -h
+ls -a
+ls -la
+man ls
+ls -lah
+ls -h
+ls -H
+man ls
+ls -lh
+cd Programas/
+ls -lh
+man ls
+du
+du -hs
+cd ..
+du Programas/
+du -h Programas/
+cd /home/
+du /home/jltm/
+du -h /home/jltm/
+du -hsc /home/jltm/
+df -h
+d -h
+df -h
+reboot
+df -h
+top
+df -h
+d -h
+df -h
+d -h
+df -h
+d -h
+df -h
+sudo umount /mnt 
+cd /home/jltm/Downloads/
+cd Matlab_2017a_Linux_x86-64/
+ls -l
+sudo mount R2017a_glnxa64_dvd2.iso /mnt/
+exit
+df -h
+jobs
+exit
+sudo mount R2017a_glnxa64_dvd1.iso /mnt/ -o loop
+/mnt/install 
+ls -la
+cp Crack/R2017a/bin/glnxa64/libmwservices.so /home/jltm/Programas/MATLAB/R2017a/bin/glnxa64/
+sudo cp Crack/R2017a/bin/glnxa64/libmwservices.so /home/jltm/Programas/MATLAB/R2017a/bin/glnxa64/
+cd /home/jltm/Programas/MATLAB/R2017a/bin/
+./matlab
+./matlab &
+xeit
+exit
+man kill
+ps -A | grep ace*
+kill 17925
+kill 11714
+ps -A | grep ace*
+exit
+ping -c 10 www.google.com
+exit
+ls -la
+df -h
+exit
+cd Desktop/
+ls -l
+cd /media/jltm/JOAOTORRE/
+mkdir BarrosGraphs
+cd /home/jltm/Desktop/
+cp Psim_Graphs.* /media/jltm/JOAOTORRE/BarrosGraphs/
+sync
+/media/jltm/JOAOTORRE/
+cd /media/jltm/JOAOTORRE
+du
+du -H
+exit
+ps -A | grep co*
+ps -A | grep code
+ps -A | grep code*
+exit
+poweroff
+sync
+exit
+ps -A
+ps -A | grep c*
+ps -A | grep code
+ps -A | grep code*
+ps -A
+exit
+reboot
+poweroff
+ping -c 10 www.google.de
+ping -c 10 www.google.pt
+exit
+sync
+exit
+poweroff
+reboot
+top
+exit
+sudo apt-get update && sudo apt-get upgrade 
+exit
+poweroff
+ping -c www.google.de
+ping -c 10 www.google.de
+exity
+exit
+top
+exit
+poweroff
+top
+exit
+sudo apt-get update && sudo apt-get upgrade 
+exit
+ps -A
+ps -A | grep code*
+ps -A | grep cc*
+exit
+top
+ps -A | grep *ccstudio
+ps -A | grep ccstudio
+ps -A | grep ccs*
+kill 4992
+exit
+poweroff
+sudo apt-get update && sudo apt-get upgrade 
+exit
+poweroff
+sudo apt-get update && sudo apt-get upgrade 
+exit
+poweroff
+ls -la /dev
+exit
+poweroff
+git status
+cd Documents/CodeComposer_Projects/
+ls -la
+git init
+cd ..
+cd GitHub_Projects/
+ls -la
+cd F28335_SAPF_Control/
+ls -la
+git status
+git add .
+git status
+git commit -m "Stable Version"
+git status
+git push
+git push -u origin master --force
+exit
+sugo apt-get
+sudo apt-get update && sudo apt-get upgrade 
+poweroff
+top
+top -H
+man top
+top -h
+top
+ping -c 10 www.google.de
+poweroff
+exit
+sudo apt-get update && sudo apt-get upgrade 
+exit
+cd Desktop/
+nano SinglePhaseSeriesActiveFilter-Final_vMonoStable.psimsch 
+exit
+poweroff
+cd /media/jltm/JOAOTORRE/
+sync
+ls -la /media/jltm/JOAOTORRE/
+nautilus /media/jltm/JOAOTORRE/
+exit
+cd Desktop/
+cp NI\ Circuit\ Design\ Suite\ 14.0.rar /media/jltm/JOAOTORRE/
+man sync
+exit
+aync
+sync
+exit
+poweroff
+ipconfig
+wlan
+netstat
+exit
+ifconfig -a
+ifconfig
+sudo apt install net-tools
+ifconfig
+exit
+ifconfig
+sync
+exit
+poweroff
+ps -A > | grep gimp
+ps -A | grep gimp
+ps -A | grep g*
+poweroff
+touch main.c
+exti
+exit
+poweroff
+pwoeroff
+poweroff
+cd Documents/CodeComposer_Projects/F28335_SAPF_Control/
+ls -la
+cd..
+cd ..
+ls -la
+cd GitHub_Projects/
+ls -la
+cd ..
+cp ./CodeComposer_Projects/F28335_SAPF_Control/ ./GitHub_Projects/
+cp -r ./CodeComposer_Projects/F28335_SAPF_Control/ ./GitHub_Projects/
+cd GitHub_Projects/F28335_SAPF_Control/
+ls -la
+git add -A
+git commit -m "Last Commit"
+git status
+git push
+exit
+df -H
+exit
+ls -la
+ls -H
+ls
+man ls
+ls -l
+ls -h
+ls -hla
+man ls
+ls -lh
+ls -sh
+cd MATLAB/
+ls -lh
+cd R2017a/
+ls -lh
+du -h
+cd ..
+du -h
+cd ..
+du -h
+cd MATLAB/R2017a/
+ls -la
+cd
+which matlab
+which MATLAB
+df -h
+cd ./.cache/spotify/Storage/
+ls -la
+rm *
+cd nautilus ./
+nautilus ./
+exit
+reboot
+sudo apt-get purge spotify-client 
+ps -A | grep spo*
+ps -A
+sudo apt-get purge spotify-client 
+exit
+top
+exit
+reboot
+sudo apt-get purge spotify-client 
+exit
+snap install spotify
+ps -A | grep spo*
+exit
+top
+ps -A | grep spotify
+kill 5740
+ps -A | grep spotify
+ps -A | grep sp*
+exit
+poweroff
+ping -c 10 www.google.de
+ping -c 10 www.google.pt
+exot
+exit
+poweroff
+df -h
+exit
+poweroff
+sudo apt-get update && sudo apt-get upgrade 
+sudo apt autoremove 
+exit
+poweroff
+df -h
+poweroff
+apt-get update && sudo apt-get upgrade 
+sudo apt-get update && sudo apt-get upgrade 
+sudo apt-get update && sudo apt-get upgrade -y
+exit
+ls -la
+cd Desktop/
+man tar
+ls -la
+tar xvzf jetbrains-toolbox-1.15.5666.tar.gz 
+exit
+./jetbrains-toolbox 
+exit
+otp
+top
+exit
+ls -la
+cd Programas/MATLAB/R2017a/etc/
+ls -la
+exit
+rm -rf Programas/MATLAB/R2017a/
+ls -la
+xeit
+exit
+sudo add-apt-repository ppa:sundername/texstudio
+sudo add-apt-repository ppa:sunderme/texstudio
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt autoremove 
+sudo apt-get install texstudio
+exit
+rm -R ~/.config/Spotify
+rm -R ~/.config/spotify/
+exit
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90 2EBF997C15BDA244B6EBF5D84773BD5E130D1D45
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update 
+sudo apt-get install spotify-client -y
+exit
+nautilus ~/.cache/spotify/Storage/
+ps -A | grep spo*
+exit
+df -H
+reboot
+sudo apt-get remove spotify-client 
+cd $HOME/.cache
+ls -la
+ls -la | grep spotify/
+ls -la | grep spoti*
+rm -r spotify
+cd ..
+ls -la
+cd /.conf
+cd /.config
+ls -la
+cd ./.config/
+rm -r spotify
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90 2EBF997C15BDA244B6EBF5D84773BD5E130D1D45
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+cd
+sudo apt-get update
+sudo apt-get install spotify-client
+exit
+sudo apt remove spotify-client 
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90 2EBF997C15BDA244B6EBF5D84773BD5E130D1D45
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update
+sudo apt-get install spotify-client -y
+sudo apt-get update 
+sudo apt-get install spotify-client
+sudo apt-get purge spotify-client 
+sudo apt-get update
+sudo apt-get upgrade 
+sudo apt autoremove 
+sudo apt-get install spotify-client
+df -h
+exit
+poweroff
+apt-get update && apt-get upgrade 
+sudo apt-get update && apt-get upgrade 
+sudo apt-get update && sudo apt-get upgrade 
+exit
+cd /sys/firmware/
+ls -la
+exit
+poweroff
+chmod +x uninstall_ccs
+poweroff
+exit
+poweroff
+sudo add-apt-repository ppa:jtaylor/keepass
+sudo apt-get update 
+sudo apt-get install keepass2 -y
+exit
+sudo apt-get install libmtp-dev mtpfs
+sudo apt-get install libmtp-dev mtp-tools 
+sudo nano /lib/udev/rules.d/69-libmtp.rules 
+sudo gedit /lib/udev/rules.d/69-libmtp.rules 
+sudo service udev restart
+exit
+ls -la /dev
+ls -la /media/jltm/
+cd /media/jltm/
+ls -la
+cd OnePlus\ Drivers
+ls -la
+exit
+find 51-android.rules
+locate 51-android.rules
+sudo apt-get install adb 
+adb devices
+sudo gedit /etc/udev/rules.d/51-android.rules
+sudo chmod a+r /etc/udev/rules.d/51-android.rules 
+lsusb 
+sudo service udev restart
+lsusb 
+sudo udevadm control --reload-rules
+sudo service udev restart 
+sudo udevadm trigger 
+lsusb 
+exit
+poweroff
+cd /media/jltm/
+ls -la
+exit
+adb help
+exit
+poweroff
+exit
+ls -la
+cd /
+cd bin/
+ls -la
+ls -la | grep *.sh
+exit
+cd /tmp/
+ls -la
+exit
+cd /home/jltm/
+ls -la
+df -H ./
+df -H /home/jltm/Android/
+exit
+sudo apt-get install gradle
+exit
+df -H
+java --version
+sudo apt install default-jre
+java --version
+sudo apt install default-jdk
+javac --version
+exit
+locate jdk
+whereis java
+top
+df -h
+poweroff
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update 
+sudo apt-get install sublime-merge 
+exit
+df -H
+poweroff
+chmod +x 
+chmod +x ./install.sh 
+./install.sh 
+sudo ./install.sh 
+exit
+mkdir ArduinoIDE_Projects
+exit
+cd ..
+mv ArduinoIDE_Projects/ ..
+exit
+df -H
+exit
+poweroff
+./install.sh 
+sudo ./install.sh 
+ls -la/dev/tty*
+ls -la /dev/tty*
+ls -la /dev/ttyU*
+chmod +x /dev/ttyUSB0 
+sudo chmod +x /dev/ttyUSB0 
+sudo chmod 775 /dev/ttyUSB0 
+sudo chmod 777 /dev/ttyUSB0 
+ls -la /dev/ttyU*
+sudo chmod 557 /dev/ttyUSB0 
+cd Documents/ArduinoIDE_Projects/
+ls -la
+cd BoarCall/
+ls -la
+cd ..
+ls -la
+cd BoarCall/
+git init
+ls -la
+git add -
+git add .
+git commit -m "Added the GMS 800L Module configuration"
+git remote add origin https://github.com/jltmanso/BoarCall.git
+git remote  -v
+git push origin master
+git remote add origin https://github.com/jltmanso/BoarCall.git
+git remote  -v
+git push origin master
+git fetch
+git push origin master
+git merge
+git fetch
+git pull
+git pull master
+git pull origin
+git pull origin master
+git clone https://github.com/jltmanso/BoarCall.git
+git fetch
+git push
+git push origin master
+git pull
+git pull origin master
+git status
+ls -la
+cd BoarCall/
+cd ..
+ls -la
+git init
+git add .
+git commit -m "Added the connection to the GSM Module. Need to be tested"
+git remote add origin https://github.com/jltmanso/BoarCall.git
+git remote -v
+git push origin master
+git pull origin master
+git clone https://github.com/jltmanso/BoarCall.git
+git push origin master
+git pull origin master
+git push
+git push origin master
+git push origin
+git pull
+git pull origin master
+git fetch
+git pull origin master
+git pull --allow-unrelated-histories
+git pull oring master --allow-unrelated-histories
+git pull origin  master --allow-unrelated-histories
+git push origin master
+exit
+pwoeroff
+poweroff
+cd Documents/ArduinoIDE_Projects/BoarCall/
+ls -la
+cd Arduino/
+ls -la
+sudo vi SIM800L.h
+exit
+vim GSM_Module.h
+nano GSM_Module.h
+nano GSM_Module_1.h
+exit
+cd Documents/ArduinoIDE_Projects/BoarCall
+ls -la
+git commit -m "Initial development of the GSM Module"
+git add .
+git commit -m "Initial development of the GSM Module"
+git push origin master
+git add .
+git commit -m "Initial development of the GSM Module"
+git push origin master
+exit
+cd Documents/ArduinoIDE_Projects/BoarCall/
+ls -la
+git config --global credential.helper store
+git add .
+git commit -m "Initial development of the GSM Module"
+git push origin master
+exit
+cd Documents/ArduinoIDE_Projects/BoarCall/
+git add .
+git commit -m "Added the assert funciont"
+git pull origin master
+git push origin master
+exit
+cd Documents/ArduinoIDE_Projects/BoarCall/
+ls -la
+git pull
+git pull origin master
+exit
+cd Documents/ArduinoIDE_Projects/BoarCall/
+git add ./Arduino/GSM_Module.h Arduino/GSM_Module.cpp
+git commit -m "Added the error handling functions in the init(void) function"
+git push origin master
+exit
+cd Documents/ArduinoIDE_Projects/BoarCall/
+git fetch
+git pull origin master
+exit
+sudo apt-get update && sudo apt-get upgrade 
+sudo apt-get update && sudo apt-get upgrade  -y
+exit
+poweroff
+cd Documents/ArduinoIDE_Projects/BoarCall/
+git fetch
+git pull origin master
+exit
+poweroff
+cd Desktop/
+ls -la
+chmod +x browserX-1.46.1-x86_64.AppImage 
+./browserX-1.46.1-x86_64.AppImage 
+exit
+poweroff
+cd Downloads/
+wget https://buildroot.org/downloads/buildroot-2019.02.4.tar.gz
+tar -xvzf buildroot-2019.02.4.tar.gz 
+ls -la
+mv buildroot-2019.02.4 ../
+cd ..
+cd buildroot-2019.02.4/
+make menuconfig 
+sudo apt-get install libncurses5-dev
+make menuconfig
+ake raspber
+make raspberry-pi-defconfig
+make raspberry3-pi-defconfig
+make menuconfig
+make raspberry3b-defconfig
+make raspberrypi3_defconfig
+make menuconfig
+make all -j4
+make all
+df-h
+cd
+df -h
+poweroff
+wheresis raspberrypi3-defconfig
+whereis raspberrypi3-defconfig
+cd buildroot-2019.02.4/
+ls -la
+cd buildroot-2019.02.4/
+make all
+sudo apt-get remove spotify-client 
+sudo apt autoremove
+exit
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add -
+sudo apt install curl
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get install spotify-client
+exit
+sudo apt-get purge spotify-client 
+sudo apt autoremove
+sudo apt purge spotify-client 
+sudo apt autoremove 
+exit
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+cd buildroot-2019.02.4/
+make clean && make all -j4
+make clean && make all -j4 &
+exit
+cd buildroot-2019.02.4/
+make raspberrypi3-defconfig
+cd buildroot-2019.02.4/
+make raspberrypi3-defconfig
+wheresis raspberrypi3-defconfig
+whereis raspberrypi3-defconfig
+make raspberry3b-defconfig
+make raspberrypi3b-defconfig
+make raspberrypi3-defconfig
+make raspberrypi3_defconfig
+make clean && make all -j4
+exit
+sudo apt-get install ubuntu-restricted-extras 
+sudo apt-get install ubuntu-restricted-extras -y
+reboot
+kill 5520
+sudo kill 5520
+sudo apt-get install ubuntu-restricted-extras -y
+sudo dpkg --configure -a
+sudo apt-get install ubuntu-restricted-extras -y
+exit
+sudo apt-get update && sudo apt-get upgrade 
+exit
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt update 
+sudo apt install spotify-client
+exit
+sudo apt update 
+sudo apt upgrade 
+exit
+poweroff
+cd Documents/ArduinoIDE_Projects/BoarCall/
+git log
+git status
+git add Arduino/BoarCall.ino Arduino/GSM_Module.h 
+git commit -m "Removed the error handling in the init function to just test the sms feature"
+git commit --amend --reset-author
+git push origin master
+git log
+git push origin master --force
+exit
+pweoroff
+poweroff
+exit
+whereis gsm.h
+whereis softwareserial.h
+whereis arduino
+whereis examples
+locate gsm.h
+locate GSM.h
+poweroff
+lt
+ls -la
+chmod +x browserX-1.48.1-x86_64.AppImage 
+./browserX-1.48.1-x86_64.AppImage 
+exit
+cd Documents/ArduinoIDE_Projects/BoarCall/
+git fetch
+git pull
+git checkout
+git log
+exit
+cd Documents/ArduinoIDE_Projects/
+ls -la
+cd BoarCall/
+ls -la
+git fetch
+git pull
+git pull origin master
+exit
+subl &
+exit
+sudo apt-get update && sudo apt-get upgrade 
+exit
+poweroff
+view
+exit
+poweroff 
+ssh-keygen -t rsa -b 4096 -C "jltmanso@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+vi ~/.ssh/id_rsa
+vi ~/.ssh/id_rsa.pub 
+exit
+sudo apt-get update && sudo apt-get upgrade -y
+exit
+df -h
+poweroff
+sudo apt-get update && sudo apt-get upgrade 
+exit
+pweroff
+poweroff
+ls-la
+ls -la
+ls
+cd Desktop/
+ls -la
+./Station-1.51.1-x86_64.AppImage &
+exit&&&
+exit
+sudo apt-get update && sudo apt-get upgrade 
+exit
+poweroff
+df -h
+sudo apt-get update && sudo apt-get upgrade 
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y && exit
+poweroff
+ls -la
+ls
+cd Documents/GitHub_Projects/
+ls
+exit
+poweroff
+cd Desktop/k
+ls -la
+ls
+cd Desktop/
+ls -la
+./Station-1.51.1-x86_64.AppImage 
+./Station-1.51.1-x86_64.AppImage &
+exit
+cd Downloads/
+ls -la
+./Rambox-0.6.9-linux-x64/
+cd Rambox-0.6.9-linux-x64/
+ls -la
+./rambox 
+sudo apt-get install libappindicator1
+sudo apt autoremove
+./rambox 
+exit
+cd Desktop/
+./Station-1.51.1-x86_64.AppImage &
+exit
+cd Programas/
+ls -la
+rm RELEASES 
+exit
+cd Downloads/
+ls -la
+cd desktop-app-releases-1.48.1/
+ls -la
+cd ..
+nautilus ./
+exit
+cd
+cd Programas/
+ls -la
+exit
+cd ~/.local/share/applications/
+ls -la
+vi appimagekit-browserx.desktop 
+exit
+cd Programas/
+ls -la
+nautilus ./
+chmod +x Station-1.51.1-x86_64.AppImage
+./Station-1.51.1-x86_64.AppImage 
+ls -la
+chmod +x Station-1.51.1-x86_64.AppImage 
+./Station-1.51.1-x86_64.AppImage 
+exit
+top
+exit
+poweroff
+sudo apt-get update
+sudo apt-get upgrade -y
+exit
+sudo dpkg --configure -a
+exti
+exit
+ps -a | grep station
+ps -a
+exit
+reboot
+cd
+cd Programas/
+ls -la
+exit
+cd ..
+cd .local/share/applications/
+ls -la
+vi appimagekit-browserx.desktop 
+exit
+cd Programas/
+ls -la
+bash
+exit
+cd Programas/
+ls -la
+./Station-1.52.2-x86_64.AppImage 
+clear
+ls -la
+cd
+cd .local/share/applications/
+ls -la
+vi appimagekit-browserx.desktop 
+exit
+pwoeroff
+poweroff
+sudo apt-get update && sudo apt-get upgrade -y && exit
+sudo apt-get remove spotify-client 
+exit
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get install spotify-client
+exit
+killall spotify 
+rm -rf /home/jltm/.cache/spotify/Storage/
+exit
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module 
+spotify --disable-gpu
+spotify 
+aplay /usr/share/sounds/alsa/Front_Center.wav 
+aplay -l
+unity-control-center sound
+sudo apt install unity-control-center
+unity-control-center sound
+gnome-control-center sound
+sudo apt purge unity-control-center 
+spotify >$HOME/spotify-dump-txt 2>&1
+vi spotify-dump-txt 
+exit
+spotify 
+spotify --disable-gpu
+exit
+sudo rm -rf ~/.cache/spotify/Storage/*
+exit
+spotify 
+exit
+sudo apt purge spotify-client 
+sudo apt autoremove 
+dpkg --configure -a
+sudo dpkg --configure -a
+exit
+history 
+exit
+free
+exit
+asdfkljasdfj fadklfa aflk
+exit
+poweroff
+cd Desktop/arduino-1.8.9-linux64/
+find ./ -iname "gsm*"
+sudo apt-get update && sudo apt-get upgrade -y && exit
+vi .bashrc 
+exit
+htop
+sudo apt-get install htop 
+htop
+exit
+htop
+exit
+cd Documents/
+ls -la
+cd Clion_Projects/
+ls -la
+rm -rf untitled/
+ll
+man ll
+ll
+ll --h
+ll --help
+exit
+poweroff
+ls -la
+ls
+rm spotify-dump-txt 
+mv mozilla.pdf 'Despacho RT - 31 -2019 - Anexo 5.pdf' /media/jltm/JOAOTORRE/
+cd /media/jltm/JOAOTORRE/
+ls -la
+nautilus ./
+umount /media/jltm/JOAOTORRE
+sync
+umount /media/jltm/JOAOTORRE
+cd
+umount /media/jltm/JOAOTORRE
+exit
+cd Documents/
+ls
+cd CodeComposer_Projects/
+ls -la
+cd ..
+ls 
+cd GitHub_Projects/
+ls 
+ls
+cd ..
+ls
+cd Q
+cd Qt_Projects/
+ls
+cd ../ArduinoIDE_Projects/
+ls -l
+exit
+firefox 
+firefox &
+firefox & && exit
+firefox & | exit
+firefox &
+exit
+sh
+exit
+poweroff
+cd Programas/
+ls -la
+cd
+cd .local/share/applications/
+vi appimagekit-browserx.desktop 
+exit
+cd Documents/
+ls
+cd GitHub_Projects/
+git clone https://github.com/ruben2020/tags2uml.git
+ls
+cd tags2uml/
+ls
+cd ..
+subl tags2uml/ &
+visudo tags2uml/
+code tags2uml/
+exit
+sudo apt-get update && sudo apt-get upgrade -y && exit
+snap repair spotify
+snap remove rambox 
+ls
+rm -rf ti/
+ls tmp/
+exit
+find ./ -iname trash
+cd .local/share/Trash/files/
+ls
+rm -rf *
+exit
+cd Documents/
+ls
+cd C
+cd Clion_Projects/
+ls
+rm -rf GSM/
+ls
+exit
+cd Documents/Clion_Projects/
+ls
+rm -rf GSM/
+exit
+touch VoiceProvider.h
+exit
+ls
+cd include/voice_provider/
+ls
+cd ..
+ls
+touch VoiceProviderImp.h VoiceProviderImp.cpp
+exit
+cd Documents/Clion_Projects/GSM/
+nautilus ./
+nautilus ./ &
+git config --list
+poweroff
+vi .bashrc 
+exit
+poweroff
+htop
+exit
+cd buildroot-2019.02.4/
+htop
+df .h
+df -h
+cd buildroot-2019.02.4/
+make menuconfig
+make all -j
+make clean
+make all -j 6
+make clean
+make raspberry3b_defconfig
+cd board/raspberrypi3/
+ls
+c d,,
+cd ..
+ls
+cd ..
+ls
+cd arch/
+ls
+cd ..
+cd board/raspberrypi3/
+ks
+ls
+cd ..
+ls
+cd ..
+find . -iname "defconfig"
+find . -iname "*.defconfig"
+find . -iname "*defconfig"
+find ./ -iname "*defconfig"
+ls
+cd configs/
+ls
+cd ..
+make raspberrypi3_defconfig 
+exit
+du -h
+df .h
+df -h
+exit
+make all -j 6
+cd buildroot-2019.02.4/
+make all -j 6
+htop
+exit
+sudo apt update && sudo apt upgrade -y && exit
+poweroff
+sudo apt update && sudo apt upgrade 
+sudo apt update && sudo apt upgrade -y && exit
+poweroff
+htop
+poweroff 
+cd
+cd Programas/
+ls
+subl &
+exit
+cd .local/share/applications/
+ls
+vi appimagekit-browserx.desktop 
+exit
+cd buildroot-2019.02.4/
+ls
+cd output/
+ls
+cd build/
+ls
+cd .
+cd ..
+ls
+cd images/
+ls
+cd
+cd buildroot-2019.02.4/
+make menuconfig
+firefox --help
+firefox -new-tab
+firefox -new-tab &
+exit
+htop
+exit
+sudo apt update && sudo apt upgrade -y && exit
+poweroff 
+sudo apt-get update && sudo apt-get upgrade -y && exit
+cd /opt/
+ls
+cd
+cd /opt/
+ls
+exit
+poweroff 
+exit
+poweroff 
+cd Programas/
+l
+cd
+.local/share/applications/
+cd .local/share/applications/
+ls
+vi appimagekit-browserx.desktop 
+cd
+cd Programas/
+ls
+cd4
+cd
+cd .local/share/applications/
+vi appimagekit-browserx.desktop 
+exit
+poweroff 
+sudo apt install zsh
+sudo apt autoremove 
+sudo apt-get update
+sudo apt-get install zsh
+$
+$0
+$$
+zsh --version
+whereis zsh
+sudo usermod -s /usr/bin/zsh $(whoami)
+reboot
+chsh -s /bin/bash 
+sudo chsh -s /bin/bash 
+exit
+vi .zshrc
+exit
+sudo apt-get --purge remove zsh
+sudo apt autoremove
+chsh -s /bin/bash jltm
+chsh -s /bin/bash
+exit
+chsh -s /bin/bash 
+vi .bashrc 
+ll
+source .bashrc 
+cd .dotfiles/
+ls
+ls -la
+rm .z*
+ls
+ll
+exit
+vim .vimrc
+cd .dotfiles/
+ln -s vimrc ~/.vimrc 
+ln -s ~/.vimrc vimrc
+ls
+ll
+vi vimrc 
+cd
+vi .vimrc 
+vim .vimrc 
+vi .vimrc 
+cd
+cd Documents/ArduinoIDE_Projects/BoarCall/Arduino/BoarCall/
+ls
+vi GSM_Module.cpp 
+exit
+cd
+cd .dotfiles/
+ls
+vi vimrc 
+cd
+vi .vimrc 
+source .vimrc 
+tmux show -g | cat > ~/.tmux.conf
+car /usr/share/doc/tmux/example_tmux.conf 
+cat /usr/share/doc/tmux/example_tmux.conf 
+cat /usr/share/doc/tmux/example_tmux.conf > ~/.tmux.conf
+cd .dotfiles/
+ln -s ~/.tmux.conf tmux.conf
+vi tmux.conf 
+tmux
+cd .dotfiles/
+ln -s ~/.bashrc bashrc
+ls
+ll
+exit
+vi .tmux.conf 
+exit
+tmux 
+rm .tmux.conf 
+exit
+tmux kill-window -t 1
+tmux kill-window -t 2
+tmux kill-window -t 3
+tmux kill-window -t 7
+tmux kill-window -t 8
+vi .bashr
+vi .bashrc
+cd
+vi .bashrc 
+tmux kill-session -a
+exit
+cd .dotfiles/
+ls
+ll
+cd
+ll
+vi .tmux.conf
+cd .d
+cd .dotfiles/
+ls
+cat tmux.conf 
+exit
+tmux 
+vi .dotfiles/tmux.conf 
+vi .dotfiles/vimrc 
+vi
+uptime
+exit
+poweroff 
+exit
+tmux 
+vim --version | grep +python
+vim --version
+sudo apt remove powerline 
+apt-get install python-pip
+sudo apt-get install python-pip
+pip install git+git://github.com/Lokaltog/powerline
+wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+mv PowerlineSymbols.otf /usr/share/fonts/
+sudo mv PowerlineSymbols.otf /usr/share/fonts/
+fc-cache -vf /usr/share/fonts/
+mv 10-powerline-symbols.conf /etc/fonts/conf.d/
+sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
+vi .bashrc
+source .bashrc 
+pip show powerline-status
+vi .bashrc
+source .bashrc 
+vi .bashrc
+source .bashrc 
+vi .dotfiles/vimrc 
+vi .bashrc 
+vi .dotfiles/vimrc 
+vi .bashrc 
+vi .dotfiles/vimrc 
+vi .bashrc 
+vi .vimrc 
+vi .bashrc 
+source .bashrc 
+vi .bashrc
+pip show powerline-status
+cd /usr/lib/python2.7/dist-packages
+ls
+cd powerline
+ls
+cd ../powerline_status-2.6.egg-info/
+ls
+cd ..
+nautilus .
+rm -rf powerline/*
+sudo rm -rf powerline/*
+la
+rmdir powerline
+sudo rmdir powerline
+l
+rm -rf powerline_status-2.6.egg-info/*
+sudo rm -rf powerline_status-2.6.egg-info/*
+rmdir powerline_status-2.6.egg-info/
+sudo rmdir powerline_status-2.6.egg-info/
+exit
+sudo apt-get install python3
+sudo apt autoremove
+exit
+sudo apt-get install python3-pip
+exit
+sudo apt-get install python3-pip
+sudo apt-get install git
+sudo pip3 install git+git://github.com/Lokaltog/powerline
+pip show powerline-status
+pip3 show powerline-status
+ls /usr/local/lib/python3.6/dist-packages
+cd .dotfiles/
+vim tmux.conf 
+vim bashrc 
+vim vimrc 
+cd .dotfiles/
+vim vimrc 
+exit
+cd .dotfiles/
+vim tmux.conf 
+cd
+exit
+tmux 
+ll
+du -h output1.txt 
+meld output1.txt 
+rm output1.txt 
+exit
+sudo apt remove sublime-text sublime-merge 
+sudo apt install meld
+tree ºº
+tree ~
+tree ~ > output1.txt
+vi .bashrc 
+exit
+tmux 
+exit
+man pip install
+exit
+pip3 list
+pip3 show powerline-status
+tmux 
+exit
+vi .bashrc 
+cd .dotfiles/
+ls
+git status
+git add bashrc tmux/ vim
+git log
+git commit -m "Added the bashrc, tmux.conf, vimrc config files"
+git push
+git status
+exit
+cd .dotfiles/.git/
+ls
+cd ..
+cd tmux/
+mkdir plugins
+cd plugins/
+git submodule add https://github.com/thewtex/tmux-mem-cpu-load
+ls
+git status
+cd ../../
+cd .git/
+ls
+cd modules/
+ls
+cd ..
+cd..
+cd ..
+cd tmux/plugins/
+cd ../../
+ls
+ls -la
+vim .gitmodules 
+git status
+git add .gitmodules tmux/plugins/tmux-mem-cpu-load/
+git commit -m "Added the Tmux memory cpu load as a submodule"
+git push origin/master
+git push
+cd tmux/plugins/tmux-mem-cpu-load/
+mkdir build
+cd build/
+cmake ..
+sudo apt install cmaje
+sudo apt install cmake
+cmake ..
+make
+make install
+sudo make install
+cd ..
+vi tmux.conf 
+exit
+cd .dotfiles/
+cd tmux/
+vi tmux.conf 
+exit
+vi .tmux.conf 
+exit
+tmux
+exit
+vi .dotfiles/tmux/tmux.conf 
+vi .bashrc 
+tmux
+cd .dotfiles/
+cd tmux/
+ls
+vi tmux.conf 
+exit
+apt-get install python-pip
+sudo apt-get install python-pip
+pip install git+git://github.com/Lokaltog/powerline
+pip3 show powerline-status
+tmux
+exit
+exit
+cd .dotfiles/tmux/
+vi tmux.conf 
+exit
+vi .tmux.conf 
+exit
+vi .bashrc 
+source .bashrc 
+tmux
+exit
+reboot 
+cd .dotfiles/tmux/
+vi tmux.conf 
+cd
+tmux source-file .tmux.conf 
+vi .tmux.conf 
+tmux source-file .tmux.conf 
+vi .tmux.conf 
+tmux source-file .tmux.conf 
+echo $PWD 
+cd .dotfiles/
+ls
+cd vim/
+mkdir plugins
+git submodule add https://github.com/scrooloose/nerdtree
+ls
+rm -rf nerdtree/*
+ls
+rmdir nerdtree/
+cd nerdtree/
+ls
+ll
+rmdir -rf .git
+rm -rf .git
+rm -rf .github/
+rm .gitignore 
+cd ..
+ls
+rmdir nerdtree/
+ls
+cd plugins/
+git submodule add https://github.com/scrooloose/nerdtree
+git status
+cd ../../
+vi .gitmodules 
+git status
+cd vim/i
+cd vim/
+ls
+vi vimrc 
+cd ..
+cd tmux/
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+man tmux
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-fil tmux.conf 
+vi tmux.conf 
+tmux source-file tmux.conf 
+vi tmux.conf 
+tmux source-file tmux.conf 
+exit
+cd .dotfiles/tmux/
+vi tmux.conf 
+tmux source-file tmux.conf 
+vi tmux.conf 
+tmux source-file tmux.conf 
+vi tmux.conf 
+tmux source-file tmux.conf 
+exit
+cd .dotfiles/tmux/
+vi tmux.conf 
+tmux source-file tmux.conf 
+exit
+vi .tmux.conf 
+tmux source-file .tmux.conf 
+vi .tmux.conf 
+tmux source-file .tmux.conf 
+exit
+tmux kill-session 1
+tmux kill-session -t 1
+tmux kill-session -t "1"
+tmux kill-session -t 2
+man gnome-terminal
+man tmux 
+cd .dotfiles/tmux/
+vi tmux.conf 
+tmux source-file tmux.conf 
+exit
+vi tmux.conf 
+vi .tmux.conf 
+tmux source-file .tmux.conf 
+exit
+vi .tmux.conf 
+exit
+tmux
+exit
+bash --version
+exit
+whoami
+exit
+cd .dotfiles/tmux/plugins/
+ls
+git submodule add https://github.com/xamut/tmux-weather
+git submodule add https://github.com/tmux-plugins/tmux-battery
+git submodule add https://github.com/xamut/tmux-network-bandwidth
+poweroff 
+cd .dotfiles/tmux/
+vi tmux.conf 
+tmux source-file tmux.conf 
+vi tmux.conf 
+exit
+init 0
+vi .tmux.conf 
+tmux source-file .tmux.conf 
+vi .tmux.conf 
+exit
+init 0
+cd .local/share/applications/
+ls
+vi appimagekit-browserx.desktop 
+exit
+cd .dotfiles/
+ls
+cd tmux/
+ls
+vi tmux.conf 
+tmux source-file tmux.conf 
+exit
+cd .dotfiles/
+cd vim/
+ls
+vi vimrc 
+cd plugins/
+ls
+cd nerdtree/
+ls
+cd doc/
+ls
+subl NERDTree.txt 
+code NERDTree.txt 
+cd ../..
+cd ..
+ls
+vi vimrc 
+vi
+vi vimrc 
+cd ~/Documents/Clion_Projects/GSM/
+vi .
+vi
+vi ~/.vimrc 
+vi
+vi ~/.vimrc 
+vi .
+vi
+vi ~/.vimrc 
+vi .dotfiles/vim/vimrc 
+exit
+cd .dotfiles/vim/
+vi vimrc 
+cd
+cd Documents/Clion_Projects/GSM/
+cd
+vi
+exit
+cd .dotfiles/vim/plugins/
+ls
+git submodule add
+git submodule add https://github.com/Xuyuanp/nerdtree-git-plugin
+ls
+cd ..
+exit
+cd .dotfiles/vim/
+vi vimrc 
+cd
+vi
+vi .dotfiles/vim/vimrc 
+vi
+vi .dotfiles/vim/vimrc 
+vi
+vi .dotfiles/vim/vimrc 
+vi
+exit
+echo $CWD
+exit
+cd Documents/Clion_Projects/GSM/
+ls
+cd ..
+ls
+cd ..
+cd GitHub_Projects/
+ls
+cd tags2uml/
+cd
+exit
+zsh --version
+vi .bashrc 
+sudo apt install zsh
+zsh --version
+chsh -s $(which zsh)
+echo $SHELL
+exit
+tmux source-file ~/.tmux.conf 
+exit

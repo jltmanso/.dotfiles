@@ -1,1 +1,576 @@
-/home/jltm/.zsh_history
+: 1576940094:0;cd Downloads
+: 1576940094:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+: 1576940094:0;cd .dotfiles
+: 1576940094:0;cd vim
+: 1576940094:0;cd plugins
+: 1576940094:0;cd /usr
+: 1576940094:0;tree -l 1
+: 1576940094:0;tree
+: 1576940094:0;cd /usr/lib/apt/methods
+: 1576940094:0;cd
+: 1576940094:0;vi .zshrc
+: 1576940094:0;source .zshrc
+: 1576940094:0;exit
+: 1576940206:0;vi .zshrc
+: 1576940244:0;exit
+: 1576940311:0;cd oh-my-zsh
+: 1576940317:0;git submodule add https://github.com/ohmyzsh/ohmyzsh
+: 1576940347:0;cd
+: 1576940349:0;ll
+: 1576940351:0;ls -la
+: 1576940674:0;vi .dotfiles/tmux/tmux.conf
+: 1576940692:0;exit
+: 1576940770:0;ll
+: 1576940787:0;cd .dotfiles/tmux
+: 1576940790:0;vi tmux.conf
+: 1576940803:0;tmux source-file tmux.conf
+: 1576940912:0;cd
+: 1576940919:0;ls -la
+: 1576940972:0;vi .zshrc_history
+: 1576940981:0;vi .zsh_history
+: 1576941003:0;ll
+: 1576941011:0;vi .bash_history
+: 1576941130:0;cd .dotfiles/
+: 1576941134:0;mkdir bash
+: 1576941144:0;cd bash
+: 1576941147:0;man ln
+: 1576941196:0;ln -s ~/.bash_history /home/jltm/.dotfiles/bash/bash_history
+: 1576941207:0;cd ..
+: 1576941214:0;mkdir zsh
+: 1576941217:0;cd zsh
+: 1576941246:0;ln -s ~/.zshrc /home/jltm/.dotfiles/zsh/zshrc
+: 1576941261:0;ln -s ~/.zsh_history /home/jltm/.dotfiles/zsh/zsh_history
+: 1576941268:0;cd ../bash
+: 1576941281:0;ln -s ~/.bashrc /home/jltm/.dotfiles/bash/bashrc
+: 1576941289:0;..
+: 1576941295:0;nautilus .
+: 1576941326:0;cd zsh
+: 1576941353:0;ln -s ~/.zshrc.pre-oh-my-zsh /home/jltm/.dotfiles/zsh/zshrc.pre-oh-my-zsh
+: 1576941397:0;vi zshrc
+: 1576941432:0;source zshrc
+: 1576941595:0;vi zshrc
+: 1576941633:0;source zshrc
+: 1576941634:0;exit
+: 1576941659:0;echo $ZSH_CUSTOM
+: 1576941661:0;exit
+: 1576941727:0;cd plugins
+: 1576941733:0;git submodule addhttps://github.com/ael-code/zsh-colored-man-pages
+: 1576941741:0;git submodule add https://github.com/ael-code/zsh-colored-man-pages
+: 1576941764:0;source ../zshrc
+: 1576941767:0;man
+: 1576941772:0;man zsh
+: 1576941806:0;ls
+: 1576941808:0;cd zsh-colored-man-pages
+: 1576941808:0;ls
+: 1576941832:0;source colored-man-pages.plugin.zsh
+: 1576941838:0;man zsh
+: 1576941844:0;exit
+: 1576941847:0;man zsh
+: 1576941923:0;vi .zshrc
+: 1576942026:0;source .zshrc
+: 1576942030:0;man zsh
+: 1576942033:0;exit
+: 1576942037:0;man zsh
+: 1576942080:0;tmux source-file .
+: 1576942092:0;tmux source-file .tmux.conf
+: 1576942095:0;exit
+: 1576942263:0;cd .dotfiles/zsh/plugins
+: 1576942270:0;git submodule add https://github.com/zsh-users/zsh-syntax-highlighting
+: 1576942294:0;cd ..
+: 1576942302:0;vi zshrc
+: 1576942337:0;source zshrc
+: 1576942343:0;cd plugins
+: 1576942345:0;ll
+: 1576942356:0;vi ../zshrc
+: 1576942378:0;source ../zshrc
+: 1576942387:0;cd zsh-syntax-highlighting
+: 1576942389:0;ls
+: 1576942401:0;cd ../zsh-colored-man-pages
+: 1576942402:0;ls
+: 1576942502:0;vi ../zshrc
+: 1576942510:0;cd ..
+: 1576942512:0;vi ../zshrc
+: 1576942525:0;source ../zshrc
+: 1576942608:0;vi ../zshrc
+: 1576942630:0;source ../zshrc
+: 1576942643:0;cd zsh-syntax-highlighting
+: 1576942644:0;ls
+: 1576942655:0;source zsh-syntax-highlighting.zsh
+: 1576942663:0;exit
+: 1576942704:0;vi .zshrc
+: 1576942808:0;exit
+: 1576942905:0;htop
+: 1576943270:0;cd $ZSH_CUSTOM/zsh-syntax-highlighting
+: 1576943281:0;cd
+: 1576943289:0;cd $ZSH_CUSTOM/zsh-syntax-highlighting/
+: 1576943291:0;ls
+: 1576943299:0;vi HACKING.md
+: 1576943533:0;cd .dotfiles
+: 1576943535:0;ls -la
+: 1576943543:0;vi .gitmodules
+: 1576943868:0;cd zsh/plugins
+: 1576943874:0;git submodule add https://github.com/zdharma/fast-syntax-highlighting
+: 1576943882:0;cd ..
+: 1576943887:0;vi zshrc
+: 1576943925:0;source zshrc
+: 1576943979:0;cd
+: 1576943982:0;cd .dotfiles
+: 1576943989:0;git submodule update --init --recursive
+: 1576944001:0;ls -la
+: 1576944008:0;vi .gitmodules
+: 1576944032:0;find . -name .gitmodules
+: 1576944037:0;git submodule update --init --recursive
+: 1576944046:0;vi .gitmodules
+: 1576944091:0;git submodule update --init
+: 1576944135:0;ls -la
+: 1576944143:0;find . -name .gitconfig
+: 1576944156:0;cd .git
+: 1576944157:0;ls
+: 1576944160:0;vi config
+: 1576944206:0;cd ..
+: 1576944213:0;git submodule update --init --recursive
+: 1576944225:0;cd .git
+: 1576944225:0;ls
+: 1576944233:0;cd modules
+: 1576944233:0;ls
+: 1576944267:0;rm -rf oh-my-zsh/*
+: 1576944276:0;ls
+: 1576944280:0;rmdir oh-my-zsh
+: 1576944281:0;ls
+: 1576944285:0;cd tmux
+: 1576944285:0;ls
+: 1576944287:0;cd plg
+: 1576944289:0;cd plugins
+: 1576944290:0;ls
+: 1576944293:0;cd ..
+: 1576944296:0;ll
+: 1576944299:0;cd vim
+: 1576944300:0;ls
+: 1576944308:0;cd plugins
+: 1576944309:0;ls
+: 1576944316:0;rm -rf nerdtree-git-plugin/*
+: 1576944323:0;rmdir nerdtree-git-plugin
+: 1576944325:0;cd ..
+: 1576944326:0;ls
+: 1576944329:0;cd nerdtree
+: 1576944329:0;ls
+: 1576944333:0;cd ..
+: 1576944337:0;ls
+: 1576944339:0;cd tmux
+: 1576944340:0;ls
+: 1576944344:0;cd ..
+: 1576944349:0;cd modules
+: 1576944350:0;l
+: 1576944354:0;cd vim
+: 1576944356:0;ll
+: 1576944360:0;cd plugins/nerdtree
+: 1576944361:0;ls
+: 1576944364:0;cd ..
+: 1576944369:0;cd nerdtree
+: 1576944370:0;ls
+: 1576944372:0;cd ..
+: 1576944373:0;ls
+: 1576944377:0;cd ..
+: 1576944378:0;ls
+: 1576944386:0;rm -rf nerdtree/*
+: 1576944390:0;rmdir nerdtree
+: 1576944390:0;ls
+: 1576944392:0;cd ..
+: 1576944423:0;git submodule update --init --recursive
+: 1576944451:0;git status
+: 1576944546:0;git add .gitmodules
+: 1576944548:0;git status
+: 1576944574:0;git bash zsh/
+: 1576944582:0;git status
+: 1576944594:0;git add bash/ zsh/
+: 1576944598:0;git status
+: 1576944666:0;git add bashrc
+: 1576944678:0;git checkout oh-my-zsh/ohmyzsh
+: 1576944687:0;git add vim/nerdtree
+: 1576944709:0;git checkout vim/plugins/nerdtree-git-plugin
+: 1576944713:0;git status
+: 1576944749:0;git commit -m "Added zsh, some plugins as submodules and cleaned the not needed"
+: 1576944752:0;git push
+: 1576944764:0;git status
+: 1576944772:0;git submodule update
+: 1576944776:0;git submodule update --init --recursive
+: 1576944811:0;git status
+: 1576944835:0;exit
+: 1576945078:0;reboot
+: 1576945288:0;cd .dotfiles/zsh/
+: 1576945294:0;vi zshrc
+: 1576945307:0;source zshrc
+: 1576945310:0;exit
+: 1576945332:0;cd .dotfiles/tmux
+: 1576945337:0;tmux source-file tmux.conf
+: 1576945353:0;vi tmux.conf
+: 1576945370:0;tmux source-file tmux.conf
+: 1576945372:0;tmux
+: 1576945406:0;cd .dotfiles/tmux
+: 1576945414:0;tmux source-file tmux.conf
+: 1576945429:0;exit
+: 1576945457:0;source .zshrc
+: 1576945474:0;tmux source-file .tmux.conf
+: 1576945482:0;exit
+: 1576945519:0;cd .dotfiles
+: 1576945519:0;ls
+: 1576945525:0;rm -rf oh-my-zsh
+: 1576945532:0;rmdir oh-m
+: 1576945535:0;çs
+: 1576945537:0;ls
+: 1576945555:0;vi .gitmodules
+: 1576945574:0;git add .gitmodules
+: 1576945597:0;git rm --cached ./oh-my-zsh
+: 1576945608:0;git rm -rf --cached ./oh-my-zsh
+: 1576945621:0;cd .git/modules
+: 1576945621:0;ls
+: 1576945625:0;ls -la
+: 1576945638:0;git commit -m "Removed submodule"
+: 1576945643:0;cd ..
+: 1576945647:0;git commit -m "Removed submodule"
+: 1576945670:0;git commit --amend --reset-author
+: 1576945700:0;git push
+: 1576945744:0;cd vim/plugins
+: 1576945745:0;ls
+: 1576945751:0;rm -rf nerdtree-git-plugin
+: 1576945752:0;ls
+: 1576945760:0;cd ..
+: 1576945765:0;git add .gitmodules
+: 1576945792:0;git rm --cached ./vim/plugins/nerdtree-git-plugin
+: 1576945817:0;git commit -m "Removed NERDTree git plugin submodule"
+: 1576945834:0;git config --local --edit
+: 1576945854:0;git config --global --edit
+: 1576945878:0;git commit --amend --reset-author
+: 1576945900:0;git push
+: 1576945933:0;git submodule update --init --recursive
+: 1576945965:0;exit
+: 1576946063:0;ls
+: 1576946066:0;l
+: 1576946212:0;vi .tmux.conf
+: 1576946228:0;tmux source-file .tmux.conf
+: 1576946230:0;tmux
+: 1576946238:0;exit
+: 1576946318:0;vi .zshrc
+: 1576946375:0;vi .tmux.conf
+: 1576946399:0;tmux source-file .tmux.conf
+: 1576946401:0;exit
+: 1576946411:0;vi .zshrc
+: 1576946494:0;vi .tmux.conf
+: 1576946506:0;tmux source-file .tmux.conf
+: 1576946508:0;exit
+: 1576946514:0;l
+: 1576946517:0;exit
+: 1576946569:0;vi .zshrc
+: 1576946673:0;rm .zshrc.swp
+: 1576946674:0;vi .zshrc
+: 1576946792:0;source .zshrc
+: 1576946814:0;vi .zshrc
+: 1576946829:0;source .zshrc
+: 1576948475:0;man cp
+: 1576953429:0;cd .dotfiles/zsh/plugins
+: 1576953436:0;git submodule add https://github.com/zsh-users/zsh-completions/
+: 1576953444:0;git status
+: 1576953447:0;cd ..
+: 1576953449:0;git status
+: 1576953566:0;cd zsh
+: 1576953573:0;vi zshrc
+: 1576953641:0;source zshrc
+: 1576953650:0;man zsh
+: 1576953669:0;vi zshrc
+: 1576954124:0;source zshrc
+: 1576954136:0;vi zshrc
+: 1576954168:0;source zshrc
+: 1576954174:0;vi zshrc
+: 1576954216:0;source zshrc
+: 1576954254:0;vi zshrc
+: 1576954289:0;source zshrc
+: 1576954327:0;vi zshrc
+: 1576954765:0;source zshrc
+: 1576955245:0;top
+: 1576955251:0;htop
+: 1576956913:0;vi .zshrc
+: 1576956939:0;exit
+: 1576957462:0;cd .dotfiles
+: 1576957467:0;cd vim/plugins
+: 1576961967:0;vi .zshrc
+: 1576962079:0;source .zshrc
+: 1576962092:0;vi .zshrc
+: 1576962166:0;source .zshrc
+: 1576962200:0;vi .zshrc
+: 1576962342:0;source .zshrc
+: 1576962379:0;vi .zshrc
+: 1576962669:0;cd .dotfiles
+: 1576962673:0;cd
+: 1576962680:0;cd .gotfiles
+: 1576962687:0;cd .dotfiles
+: 1576962695:0;cd
+: 1576962702:0;source .zshrc
+: 1576962706:0;cd .dotfiles
+: 1576962749:0;htop
+: 1576962924:0;cd
+: 1576962927:0;source .zshrc
+: 1576962931:0;cd .dotfiles
+: 1576962939:0;cd vim
+: 1576963055:0;man cp
+: 1576963068:0;man ln
+: 1576963314:0;tmux kill-session -a
+: 1576963392:0;tmux kill-session
+: 1576963413:0;vi .tmux.conf
+: 1576963428:0;tmux source-file .tmux.conf
+: 1576963544:0;tmux new-session -s shit
+: 1576963555:0;tmux new-session -s session
+: 1576963579:0;tmux new -s session
+: 1576967129:0;poweroff
+: 1577013846:0;cd .dotfiles/tmux/plugins
+: 1577013846:0;ls
+: 1577013858:0;git submodule add https://github.com/jdxcode/tmux-spotify-info
+: 1577013883:0;cd tmux-spotify-info
+: 1577013907:0;cd
+: 1577013949:0;vi .zshrc
+: 1577014081:0;cd .dotfiles
+: 1577014462:0;htop
+: 1577014506:0;cd .dotfiles
+: 1577014868:0;exit
+: 1577014918:0;htop
+: 1577015528:0;git submodule add https://github.com/Powerlevel9k/powerlevel9k
+: 1577015708:0;cd .dotfiles/zsh/
+: 1577015712:0;vi zshrc
+: 1577015740:0;source zshrc
+: 1577016057:0;vi zshrc
+: 1577016120:0;source zshrc
+: 1577016127:0;vi zshrc
+: 1577016320:0;source zshrc
+: 1577016330:0;vi zshrc
+: 1577016369:0;source zshrc
+: 1577016379:0;vi zshrc
+: 1577016402:0;source zshrc
+: 1577016410:0;cd
+: 1577016417:0;vi .zshrc
+: 1577016439:0;source .zshrc
+: 1577016449:0;vi .zshrc
+: 1577016907:0;source .zshrc
+: 1577016949:0;vi .zshrc
+: 1577016983:0;source .zshrc
+: 1577017050:0;vi .zshrc
+: 1577017107:0;source .zshrc
+: 1577017113:0;vi .zshrc
+: 1577017123:0;source .zshrc
+: 1577017134:0;vi .zshrc
+: 1577017184:0;source .zshrc
+: 1577017189:0;vi .zshrc
+: 1577017244:0;source .zshrc
+: 1577017267:0;ls
+: 1577017279:0;exit
+: 1577017340:0;tmux source-file .tmux.conf
+: 1577017347:0;source .zshrc
+: 1577020212:0;vi .zshrc
+: 1577020218:0;source .zshrc
+: 1577020259:0;vi .zshrc
+: 1577020529:0;source .zshrc
+: 1577020539:0;cd .dotfiles
+: 1577020547:0;git status
+: 1577020561:0;git add zsh/fonts/
+: 1577020603:0;git commit -m "Added Powerlevel9K theme and Hack Font"
+: 1577020609:0;git push
+: 1577020730:0;sudo apt update && sudo apt upgrade
+: 1577020753:0;sudo
+: 1577020756:0;cd
+: 1577020829:0;cd .dotfiles
+: 1577020833:0;cd zsh
+: 1577020837:0;vi zshrc
+: 1577020910:0;source zshrc
+: 1577021123:0;source .zshrc
+: 1577021312:0;cd .dotfiles/zsh/plugins
+: 1577021317:0;git submodule add https://github.com/zsh-users/zsh-autosuggestions
+: 1577021325:0;cd ..
+: 1577021329:0;vi zshrc
+: 1577021360:0;source zshrc
+: 1577021368:0;so
+: 1577021387:0;source zshrc
+: 1577021392:0;cd
+: 1577021394:0;..
+: 1577021397:0;cd
+: 1577021589:0;vi .zshrc
+: 1577021636:0;source .z
+: 1577021643:0;source .zshrc
+: 1577021647:0;vi .zshrc
+: 1577021720:0;source .zshrc
+: 1577021724:0;vi .zshrc
+: 1577021738:0;source .zshrc
+: 1577021743:0;vi .zshrc
+: 1577021762:0;source .zshrc
+: 1577021968:0;cd .oh-my-zsh
+: 1577021978:0;cd themes
+: 1577021980:0;vi amuse.zsh-theme
+: 1577021997:0;vi agnoster.zsh-theme
+: 1577022066:0;git status
+: 1577022069:0;cd
+: 1577022431:0;vi .zshrc
+: 1577022579:0;exit
+: 1577022586:0;vi .zshrc
+: 1577022638:0;source .zshrc
+: 1577022643:0;vi .zshrc
+: 1577022662:0;source .zshrc
+: 1577022665:0;vi .zshrc
+: 1577022677:0;source .zshrc
+: 1577022687:0;cd .dotfiles/zsh/plugins
+: 1577022716:0;cd fast-syntax-highlighting
+: 1577022876:0;vi .zshrc
+: 1577022890:0;vi ~/.zshrc
+: 1577022964:0;source ~/.zshrc
+: 1577022986:0;vi ~/.zshrc
+: 1577023183:0;source ~/.zshrc
+: 1577023194:0;vi ~/.zshrc
+: 1577023614:0;source ~/.zshrc
+: 1577023630:0;vi ~/.zshrc
+: 1577023655:0;source ~/.zshrc
+: 1577023688:0;vi ~/.zshrc
+: 1577023733:0;source ~/.zshrc
+: 1577023758:0;vi ~/.zshrc
+: 1577023769:0;source ~/.zshrc
+: 1577023822:0;cd
+: 1577023826:0;cd .dotfiles
+: 1577023844:0;cd
+: 1577023846:0;vi .zshrc
+: 1577023909:0;source .zshrc
+: 1577023964:0;cd .d
+: 1577023970:0;cd .dotfiles
+: 1577024143:0;cd zsh
+: 1577024144:0;vi 
+: 1577024152:0;vi zshrc
+: 1577024175:0;source zshrc
+: 1577024450:0;source .zshrc
+: 1577024459:0;cd
+: 1577024467:0;source .zshrc
+: 1577024472:0;cd
+: 1577024477:0;source .zshrc
+: 1577024493:0;cd .dotfiles
+: 1577024514:0;cd
+: 1577024522:0;source .zshrc
+: 1577024529:0;htop
+: 1577024605:0;vi .
+: 1577024614:0;cd
+: 1577024617:0;vi .zshrc
+: 1577024629:0;source .zshrc
+: 1577024656:0;cd .dotfiles
+: 1577024730:0;cd zsh/
+: 1577024734:0;vi zshrc
+: 1577024757:0;source zshrc
+: 1577024805:0;cd plugins
+: 1577024806:0;ls
+: 1577024812:0;cd fast-syntax-highlighting
+: 1577024818:0;cd ..
+: 1577024820:0;..
+: 1577024821:0;...
+: 1577024836:0;cd .dotfiles
+: 1577025276:0;htop
+: 1577025924:0;cd .dotfiles
+: 1577025927:0;git sta
+: 1577025931:0;git status
+: 1577025967:0;git commit -m "Added zsh-autosuggestions as a submodule"
+: 1577025970:0;git push
+: 1577026103:0;cd .dotfiles
+: 1577026115:0;history
+: 1577026132:0;vi .zshrc
+: 1577026139:0;cd zsh
+: 1577026141:0;vi zshrc
+: 1577026161:0;source zshrc
+: 1577026166:0;history
+: 1577026177:0;cd
+: 1577026188:0;vi .bash_history
+: 1577026199:0;ll
+: 1577026202:0;ls -la
+: 1577026210:0;vi .zsh_history
+: 1577026231:0;vi .zshrc
+: 1577026244:0;source .zshrc
+: 1577026248:0;vi .zsh_history
+: 1577026281:0;cd .oh-my-zsh
+: 1577026359:0;tmux attach -t system
+: 1577026367:0;tmux attach -t System
+: 1577026477:0;git submodule update --init --recursive
+: 1577026488:0;git status
+: 1577026737:0;exit
+: 1577028597:0;poweroff
+: 1577043760:0;cd .dotfiles/tmux/plugins
+: 1577043776:0;git submodule addhttps://github.com/tmux-plugins/tmux-resurrect
+: 1577043783:0;git submodule add https://github.com/tmux-plugins/tmux-resurrect
+: 1577043794:0;...
+: 1577043798:0;git status
+: 1577043811:0;cd tmux
+: 1577043813:0;vi .tm
+: 1577043825:0;vi tmux.conf
+: 1577043927:0;vi /usr/local/lib/python3.6/dist-packages/powerline/bindings/tmux/powerline.conf
+: 1577043966:0;cd /usr/local/lib/python3.6/dist-packages/powerline/bindings/tmux
+: 1577043968:0;ls
+: 1577043982:0;vi powerline.conf
+: 1577045536:0;cd .dotfiles/tmux/plugins
+: 1577045537:0;ls
+: 1577045547:0;cd tmux-resurrect
+: 1577045547:0;ls
+: 1577045599:0;tmux source-file tmux.conf
+: 1577045680:0;vi tmux.conf
+: 1577052801:0;tmux source-file tmux.conf
+: 1577052864:0;cp ~/.bash_history .
+: 1577052872:0;cp ~/.bashrc .
+: 1577052889:0;ll
+: 1577052894:0;ls -la
+: 1577052917:0;rm bashrc
+: 1577052924:0;rm bash_history
+: 1577052940:0;mv .bash_history bash_history
+: 1577052950:0;mv .bashrc bashrc
+: 1577052974:0;cd
+: 1577052976:0;ls
+: 1577052981:0;ls -la
+: 1577053003:0;vi .bash_logout
+: 1577053031:0;cp .bash_logout .dotfiles/bash
+: 1577053070:0;rm .bashrc .bash_logout .bash_history
+: 1577053100:0;ln -s .dotfiles/bash/bash_history .bash_history
+: 1577053102:0;ls -la
+: 1577053123:0;ln -s .dotfiles/bash/bash_logout .bash_logout
+: 1577053134:0;ln -s .dotfiles/bash/bashrc .bashrc
+: 1577053139:0;ls -la
+: 1577053177:0;cp .profile .dotfiles/bash
+: 1577053194:0;mv .dotfiles/bash/.profile .dotfiles/bash/profile
+: 1577053201:0;rm .profile
+: 1577053214:0;ln -s .dotfiles/bash/profile .profile
+: 1577053219:0;ls -la
+: 1577053252:0;vi .viminfo
+: 1577053290:0;mv .tmux .dotfiles/tmux
+: 1577053315:0;mv .tmux.conf .dotfiles/tmux
+: 1577053329:0;rm .dotfiles/tmux/tmux.conf
+: 1577053345:0;mv .dotfiles/tmux/.tmux.conf .dotfiles/tmux/tmux.conf
+: 1577053373:0;ln -s .dotfiles/tmux/tmux.conf .tmux.conf
+: 1577053377:0;ls -la
+: 1577053384:0;cd .vim
+: 1577053385:0;ls
+: 1577053387:0;ls -la
+: 1577053389:0;dc
+: 1577053393:0;cd
+: 1577053397:0;ls -la
+: 1577053424:0;cp .vimrc .dotfiles/vim
+: 1577053439:0;rm .dotfiles/vim/vimrc
+: 1577053451:0;mv .dotfiles/vim/.vimrc .dotfiles/vim/vimrc
+: 1577053466:0;ln -s .dotfiles/vim/vimrc .vimrc
+: 1577053475:0;rm .vimrc
+: 1577053478:0;ln -s .dotfiles/vim/vimrc .vimrc
+: 1577053481:0;ls -la
+: 1577053500:0;cd .dotfiles/zsh
+: 1577053501:0;ls
+: 1577053504:0;ls -la
+: 1577053515:0;rm zsh_history zshrc zshrc.pre-oh-my-zsh
+: 1577053517:0;cd
+: 1577053532:0;ls -la
+: 1577053544:0;cd .dotfiles/zsh
+: 1577053591:0;cp ~/.zsh_history ~/.zshrc ~/.zshrc.pre-oh-my-zsh .
+: 1577053686:0;ln -s .dotfiles/zsh/zshrc .zshrc
+: 1577053716:0;ln -s .dotfiles/zsh/zshrc.pre-oh-my-zsh .zshrc.pre-oh-my-zsh
+: 1577053738:0;cd .dotfiles
+: 1577053740:0;git status
+: 1577053768:0;git add -u
+: 1577053771:0;git status
+: 1577053779:0;git add zsh
+: 1577053783:0;git add bash
+: 1577053785:0;git status
+: 1577053794:0;git add zsh/zsh_history
+: 1577053796:0;git status
+: 1577053818:0;git add zsh/zsh_history
