@@ -20,7 +20,7 @@ POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="▶ "
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir root_indicator)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir dir_writable)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs)
 
 # Set list of themes to pick from when loading at random
@@ -30,7 +30,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs)
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
-CASE_SENSITIVE="true"
+#CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
@@ -55,7 +55,7 @@ CASE_SENSITIVE="true"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -86,6 +86,7 @@ plugins=(
   colored-man-pages
   zsh-autosuggestions
   fast-syntax-highlighting
+  thefuck
 )
 
 autoload -U compinit && compinit
