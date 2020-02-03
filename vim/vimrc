@@ -2,19 +2,41 @@
 " => Plugins                                                                  "
 " => Some additional user-defined plugins                                     "	
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <leader>s :source ~/.vimrc<CR>:echo "Vim configuration sourced"<CR>
 set background=dark
+set hidden
+set history
+filetype indent on
+set nowrap
+set tabstop=2
+set expandtab
+set smartindent
+set autoindent
+set hlsearch
+set showmatch
+set number relativenumber
+set nonumber norelativenumber
+set number! relativenumber!
+
+nnoremap <silent> <ESC> :nohlsearch<BAR>:echo<CR>
+
+map <D-A-RIGHT> <C-w>l
+map <D-A-LEFT> <C-w>h
+map <D-A-DOWN> <C-w><C-w>
+map <D-A-UP> <C-w>W
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerd Tree                                                                "
 " =>                                                                          "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set rtp+=$HOME/.dotfiles/vim/plugins/nerdtree
-let g:NERDTreeWinPos = "left"
-let NERDTreeWinSize=40
+let g:NERDTreeWinPos="left"
+let NERDTreeWinSize=30
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
-map <leader>nt :NERDTreeToggle<cr>
-map <leader>nb :NERDTreeFromBookmark<Space>
+let NERDTreeShowHidden=1
+map <leader>nt :NERDTreeToggle<CR>
+map <leader>nb :NERDTreeFromBookmark<SPACE>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Powerline                                                                "

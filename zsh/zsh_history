@@ -574,3 +574,12 @@
 : 1577053794:0;git add zsh/zsh_history
 : 1577053796:0;git status
 : 1577053818:0;git add zsh/zsh_history
+: 1577053821:0;git status
+: 1577053889:0;git commit -m "Fixed the config files and used them as shortcuts"
+: 1577053896:0;git push origin/master
+: 1577053902:0;git push origin
+: 1577053962:0;tmux source-file .tmux.conf
+: 1577053967:0;cd
+: 1577053968:0;tmux source-file .tmux.conf
+: 1577053991:0;tmux
+: 1577054131:0;exit
