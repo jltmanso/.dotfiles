@@ -1,47 +1,371 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Plugins                                                                  "
-" => Some additional user-defined plugins                                     "	
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>s :source ~/.vimrc<CR>:echo "Vim configuration sourced"<CR>
-set background=dark
-set hidden
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Maintainer:                                                             "
+"       Joao Torre  — @jltmanso                                           "
+"                                                                         "
+"ections:                                                               "
+"    -> General                                                           "
+"    -> VIM User Interface                                                "
+"    -> Colors and Fonts                                                  "
+"    -> Files and backups                                                 "
+"    -> Text, tab and indent related                                      "
+"    -> Visual mode related                                               "
+"    -> Moving around, tabs and buffers                                   "
+"    -> status line                                                         "
+"    -> Editing mappings                                                  "
+"    -> vimgrep searching and cope displaying                             "
+"    -> spell checking                                                      "
+"    -> Misc                                                              "
+"    -> Helper functions                                                  "
+"                                                                         "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" -> General                                                              "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Defines  how many line of history VIM has to remember
 set history=1000
+
+" Enables mouse on VIM
+set mouse=a
+
+" Defines <leader>s to soruce the vimrc file
+map <leader>s :source ~/.vimrc<CR>:echo "Vim configuration sourced"<CR>
+
+" Enable filetype plugins
+filetype plugin on
 filetype indent on
-set nowrap
-set tabstop=2
-set expandtab
-set smartindent
-set autoindent
-set hlsearch
-set showmatch
+
+"Autoread when a file is changed from the outside
+set autoread
+au FocusGained,BufEnter * checktime
+
+" Turn Persistency Undo On
+" Means that you can undo even when you close a buffer/VIM
+try
+    set undodir=~/.dotfiles/vim/tmp/undodir
+    set undofile
+catch
+endtry
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" -> VIM User Interface                                                   "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Defines  7 lines to the cursor - when moving vertically using j/k
+set so=7
+
+" Avoid garbled characters in Chinese language Windows OS
+let $LANG='en'
+set langmenu=en
+
+" Turn on the Wild menu
+set wildmenu
+
+" Ignore compiled files
+set wildignore=*.o,*~,*.pyc
+
+" Always show current position
+set ruler
+
+" Alwaus show relative line number
 set number relativenumber
 set nonumber norelativenumber
 set number! relativenumber!
 
-map <D-A-RIGHT> <C-w>l
-map <D-A-LEFT> <C-w>h
-map <D-A-DOWN> <C-w><C-w>
-map <D-A-UP> <C-w>W
+" Height of the command bar
+set cmdheight=1
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Nerd Tree                                                                "
-" =>                                                                          "
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" A buffer becomes hidden when it is abandoned
+set hid
+
+" Configure backspace so it acts al it should act
+set whichwrap+=<,>,h,l
+
+" Ignore case when searching
+set ignorecase
+
+" When searching try to be smart about cases
+set smartcase
+
+" Highlight search results
+set hlsearch
+
+" Makes search acts like search in modern browsers
+set incsearch
+
+" Don't redraw while executing macros (good performance config)
+set lazyredraw
+
+" For regular expressions turn magic on
+set magic
+
+"how matching brackets when text indicator is over them
+set showmatch
+
+" How many tenths of a second to blink when matching brackets
+set mat=2
+
+" No annoying sound on erros
+set noerrorbells
+set novisualbell
+set t_vb=
+set tm=500
+
+" Add a bit extra margin to the left
+" set foldcolumn=1
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" -> Colors and Fonts                                                     "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Enable syntax highlighting
+syntax enable
+
+" Enable 256 colors palette in Gnome Terminal
+set t_Co=256
+
+try
+        colorscheme dark
+catch
+endtry
+
+set background=dark
+
+"et utf8 as standartd encoding and en_US as the standard language
+set encoding=utf8
+
+" User Unix as the standard file type
+set ffs=unix,dos,mac
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" -> Files, Backups and Undo                                              "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Turn backup off since most of the suff is inVN, git anyways
+set nobackup
+set nowb
+set noswapfile
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" -> Text, Tab and Identation related                                     "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Use spaces instead of tabs
+set expandtab
+
+" Be smart when using tabs
+set smarttab
+
+"et one tab as four spaces
+set shiftwidth=4
+set tabstop=4
+
+" Linebreak on 120 characters
+set lbr
+set tw=120
+
+set ai "Auto indent
+set si "Smart indent
+set wrap "Wrap lines
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" -> Visual Mode Related                                                  "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Visual mode pressing * or # searches for the current selection
+"uper useful! From an idea by Michal Naumann
+vnoremap <silent> * :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
+vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" -> Moving around, Tabs, Windows and Buffers                             "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
+map <space> /
+map <C-space> ?
+
+" Disable highlight when <leader><cr> is pressed
+map <silence> <leader><cr> :noh<cr>
+
+"mart way to move between windows
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+" Close the current buffer
+map <leader>bc :Bclose<cr>:tabclose<cr>gT
+
+" Close all the buffers
+map <leader>ba :bufdo bd<cr>
+
+" Move to the next buffer
+map <leader>n :bnext<cr>
+
+" Move to th previous buffer
+map <leader>p :bprevious<cr>
+
+" Useful mappings for managing tabs
+map <leader>tn :tabnew<cr>
+map <leader>to :tabonly<cr>
+map <leader>tc :tabclose<cr>
+map <leader>tm :tabmove<cr>
+map <leader>t<leader> :tabnext
+
+" Let 't1' toggle between this and the last accessed tab
+let g:lasttab = 1
+nmap <leader>tl :exe "tabn ".g:lasttab<CR>
+au TabLeave * let g:lasttab = tabpagenr()
+
+" Opens a new tab with the current buffer's path
+"uper useful when editing files in the same directory
+map <leader>te :tabedit <C-r>=expand("%:p:h")<cr>/
+
+"witch CWD to the directory of the open buffer
+map <leader>cd :cd %p:h<cr>:pwd<cr>
+
+"pecify the behaviour when switching between buffers
+try
+    set switchbuf=useopen,usetab,newtab
+    set stal=2
+catch
+endtry
+
+" Retur to last edit position when opening files
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" ->tatus Line                                                          "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Always show the status line
+set laststatus=2
+
+" Format the status line
+"set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" -> Editing Mappings                                                     "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Remove VIM 0 to the first non-blank character
+map 0 ^
+
+" Move a line of text using ALT-[jk]
+nmap <M-j> mz:m+<cr>`z
+nmap <M-k> mz:m-2<cr>`z
+vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
+vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
+
+" Delete trailling whitespaces on save, useful for some filetypes
+fun! CleanExtraSpaces()
+    let save_cursor = getpos(".")
+    let old_query = getreg('/')
+    silent! %s/\s\+S//e
+    call setpos('.', save_cursor)
+    cal setreg('/', old_query)
+endfun
+
+if has("autocmd")
+    autocmd BufWritePre *.txt,*.js,*.py,*.wiki,*.sh,*.coffee \
+        :call CleanExtraSpaces()
+endif
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" ->pell Checking                                                       "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Pressing <leader>ss will toggle spell checking
+map <leader>ss :setlocal spell!<cr>
+
+"hortcuts using <leader>
+map <leader>sn ]s
+map <leader>sp [s
+map <leader>sa zg
+map <leader>s? z=
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" -> Misc                                                                 "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Quickly open a buffer for scribble
+map <leader>q :e ~/buffer<cr>
+
+" Quickly open a markdown buffer for scribble
+map <leader>x :e ~/buffer.md<cr>
+
+" Toggle paste mode on and off
+map <leader>pp :setlocal paste!<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" -> Helper Functions                                                     "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Returns true if paste mode is enabled
+function! HasPaste()
+    if &paste
+        return 'PASTE MODE  '
+    endif
+    return ''
+endfunction
+
+" Don't close window, when deleting a buffer
+command! Bclose call <SID>BufcloseCloseIt()
+function! <SID>BufcloseCloseIt()
+    let l:currentBufNum = bufnr("%")
+    let l:alternateBufNum = bufnr("#")
+    
+    if buflisted(l:alternateBufNum)
+        buffer #
+    else
+        bnext
+    endif
+    
+    if bufnr("%") == l:currentBufNum
+        new
+    endif
+    
+    if buflisted(l:currentBufNum)
+        execute("bdelete! ".l:currentBufNum)
+    endif
+endfunction
+
+function! CmdLine(str)
+    call feedkeys(":" . a:str)
+endfunction 
+
+function! VisualSelection(direction, extra_filter) range
+    let l:saved_reg =@"
+    execute "normal! vgvy"
+    
+    let l:pattern = escape(@", "\\/.*'$^~[]")
+    let l:pattern = substitute(l:pattern, "\n$", "", "")
+
+     if a:direction == 'gv'
+        call CmdLine("Ack '" . l:pattern . "' " )
+     elseif a:direction == 'replace'
+        call CmdLine("%s" . '/'. l:pattern . '/')
+     endif
+ 
+     let @/ = l:pattern
+     let @" = l:saved_reg
+endfunction
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Nerd Tree                                                             "
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set rtp+=$HOME/.dotfiles/vim/plugins/nerdtree
 let g:NERDTreeWinPos="left"
-let NERDTreeWinSize=30
+let NERDTreeWinSize=40
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
 let NERDTreeShowHidden=1
 map <leader>nt :NERDTreeToggle<CR>
 map <leader>nb :NERDTreeFromBookmark<SPACE>
+map <leader>nf :NERDTreeFind<cr>
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Powerline                                                                "
-" =>
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Powerline                                                             "
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set rtp+=/usr/local/lib/python3.6/dist-packages/powerline/bindings/vim
 set laststatus=2
 set showtabline=1
 set noshowmode
 set t_Co=256
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => VimTex                                                                "
+" =>                                                                       "
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set rtp+=$HOME/.dotfiles/vim/plugins/vimtex

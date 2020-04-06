@@ -37,3 +37,6 @@
 [submodule "tmux/plugins/tmux-continuum"]
 	path = tmux/plugins/tmux-continuum
 	url = https://github.com/tmux-plugins/tmux-continuum.git
+[submodule "vim/plugins/vimtex"]
+	path = vim/plugins/vimtex
+	url = https://github.com/lervag/vimtex.git
